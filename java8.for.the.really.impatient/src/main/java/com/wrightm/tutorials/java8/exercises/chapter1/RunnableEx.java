@@ -6,7 +6,7 @@ class RunnableEx implements Runnable {
 	 * @throws Throwable always throws.
 	 */
 	public void run() {
-		throw new Throwable("This will be caught by unchecked");
+		//throw new Throwable("This will be caught by unchecked");
 	}
 	
 }
